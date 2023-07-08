@@ -1,0 +1,31 @@
+.bangXO{
+    height: 340px;
+    width: 340px;
+    margin: auto;
+    margin-top: 75px;
+    margin-left: 38.7%;
+    display:grid;
+    grid-template-areas: 
+    'Area1 Area2 Area3'
+    'Area4 Area5 Area6'
+    'Area7 Area8 Area9';
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 5px;
+}
+.bangXO > div
+{
+    background-color: white;
+    border:5px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+#Zone1{ grid-area:Area1};
+#Zone2{ grid-area:Area2};
+#Zone3{ grid-area:Area3};
+#Zone4{ grid-area:Area4};
+#Zone5{ grid-area:Area5};
+#Zone6{ grid-area:Area6};
+#Zone7{ grid-area:Area7};
+#Zone8{ grid-area:Area8};
+#Zone9{ grid-area:Area9};
