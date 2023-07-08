@@ -8,9 +8,7 @@ function Move(i)
             {
                 turn++;
                 let tmp =  document.getElementById(id[i]);
-                tmp = tmp.getElementsByTagName("p");
                 if (turn%2==0) tmp.innerHTML = 'X';
                 else tmp.innerHTML = 'O';
-                console.log(turn, i);
             }
     }
